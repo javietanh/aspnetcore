@@ -1,0 +1,6 @@
+﻿services:
+  aspnetcore:
+    image: aspnetcore
+    build:
+      context: .
+      dockerfile: Dockerfile
